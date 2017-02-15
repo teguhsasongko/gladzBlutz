@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Author : Teguh Sasongko ( ./Mr.GLADz40 )
+# Author : Teguh Sasongko ( ./Mr.GLADz404 )
 	
 try:
     print ''' 		       _           _    ______ _       _       
