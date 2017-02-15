@@ -1,41 +1,41 @@
 #!/usr/bin/python
 # Author : Teguh Sasongko ( ./Mr.GLADz404 )
-	
+# FREE RECODED ASAL SOPAN !!!
 try:
-    print ''' 		       _           _    ______ _       _       
-  	   _          | |         | |   | ___ \ |     | |      
-  	  | \	  __ _| | __ _  __| |___| |_/ / |_   _| |_ ____
-  	  |  \	 / _` | |/ _` |/ _` |_  / ___ \ | | | | __|_  /
-  ()########  |=================================================>
-  	  |  /	| (_| | | (_| | (_| |/ /| |_/ / | |_| | |_ / / 
-  	  |_/	 \__, |_|\__,_|\__,_/___\____/|_|\__,_|\__/___|
-  	     /    __/ |           ( Making Wordlist )    
-  	    / \  |___/                                              
-  	   /   \                                                
-  	 _/     \_________________________________________________                                                  
+    print '''\033[1;91m 		       _           _    ______ _       _ \033[1;m      
+ \033[1;36m 	   _ \033[1;m    \033[1;91m     | |         | |   | ___ \ |     | |          \033[1;m
+ \033[1;36m 	  | \ \033[1;m	  \033[1;91m__ _| | __ _  __| |___| |_/ / |_   _| |_ ____    \033[1;m
+ \033[1;36m 	  |  \ \033[1;m	 \033[1;91m/ _` | |/ _` |/ _` |_  / ___ \ | | | | __|_  /    \033[1;m
+ \033[1;36m ()########  |=================================================>\033[1;m
+ \033[1;36m 	  |  /\033[1;m	\033[1;39m| (_| | | (_| | (_| |/ /| |_/ / | |_| | |_ / /_ \033[1;m
+ \033[1;36m 	  |_/\033[1;m	 \033[1;39m\__, |_|\__,_|\__,_/___\____/|_|\__,_|\__/___| \033[1;m
+\033[1;32m  	     /  \033[1;m \033[1;39m __/ | \033[1;m     \033[1;27m     ( Making Wordlist )   \033[1;m 
+\033[1;32m  	    / \ \033[1;m \033[1;39m|___/ \033[1;m                                             
+\033[1;32m  	   /   \  \033[1;m                                              
+ \033[1;32m 	 _/     \_________________________________________________                                                  
 	| gladzBlutz Coded By  : Teguh Sasongko ( ./Mr.GLADz404 ) |
 	| Version              : 1.0                     	  | 	 
 	| Codename             : gladzBlutz          		  | 
 	| Follow me on FB      : www.fb.com/gladz404.id	 	  |   
 	| My Blog	       : www.teguhsasongko.tk   	  | 	  
 	| Greetz	       : IndoXploit & All My Friends  	  | 	  
-	-----------------------------------------------------------	
+	-----------------------------------------------------------\033[1;m	
 '''
     print "\n"
-    nama = raw_input("    Masukan Nama File Output : ")
+    nama = raw_input("\033[1;17m    Masukan Nama File Output : \033[1;m")
     kataku = open (nama,'a+') 
     print "\n"
-    print "    Masukan kata yang ingin di buat :"
-    a = raw_input('    kata Pertama    : ')
-    b = raw_input('    kata Kedua      : ')
-    c = raw_input('    kata Ketiga     : ')
-    d = raw_input('    kata Keempat    : ')
-    e = raw_input('    kata Kelima     : ')
-    f = raw_input('    kata Keenam     : ')
-    g = raw_input('    kata Ketujuh    : ')
-    h = raw_input('    kata Kedelapan  : ')
-    i = raw_input('    kata Kesembilan : ')
-    j = raw_input('    kata Kesepuluh  : ')
+    print "\033[1;25m    Masukan kata yang ingin di buat : \033[1;m"
+    a = raw_input('\033[1;25m    kata Pertama    : \033[1;m')
+    b = raw_input('\033[1;17m    kata Kedua      : \033[1;m')
+    c = raw_input('\033[1;17m    kata Ketiga     : \033[1;m')
+    d = raw_input('\033[1;17m    kata Keempat    : \033[1;m')
+    e = raw_input('\033[1;17m    kata Kelima     : \033[1;m')
+    f = raw_input('\033[1;17m    kata Keenam     : \033[1;m')
+    g = raw_input('\033[1;17m    kata Ketujuh    : \033[1;m')
+    h = raw_input('\033[1;17m    kata Kedelapan  : \033[1;m')
+    i = raw_input('\033[1;17m    kata Kesembilan : \033[1;m')
+    j = raw_input('\033[1;17m    kata Kesepuluh  : \033[1;m')
 
     kataku.write(a)
     kataku.write('\n')
@@ -1447,20 +1447,20 @@ try:
     kataku.write('\n')
     kataku.write(j + i + h)
     print '''
-     _  _  _  _       _  _  _  _    _           _  _  _  _  _     
+\033[1;25m     _  _  _  _       _  _  _  _    _           _  _  _  _  _     
     (_)(_)(_)(_)    _(_)(_)(_)(_)_ (_) _       (_)(_)(_)(_)(_) 
     (_)       (_)_ (_)          (_)(_)(_)_     (_)(_)               
     (_)         (_)(_)          (_)(_)  (_)_   (_)(_) _  _          
     (_)         (_)(_)          (_)(_)    (_)_ (_)(_)(_)(_)         
     (_)        _(_)(_)          (_)(_)      (_)(_)(_)               
     (_) _  _  (_)  (_)_  _  _  _(_)(_)         (_)(_) _  _  _     
-    (_)(_)(_)(_)    (_)(_)(_)(_)   (_)         (_)(_)(_)(_)(_)
-    ____________________________________________________________   
-    File disimpan sebagai : ''' + nama
+    (_)(_)(_)(_)     (_)(_)(_)(_)  (_)         (_)(_)(_)(_)(_)\033[1;m
+\033[1;91m    ____________________________________________________________ \033[1;m  
+\033[1;36m    File disimpan sebagai : ''' + nama 
 except KeyboardInterrupt:
-    print '''
+    print '''\033[1;m \033[1;36
   _        ____                                      
  /_|   _/_  /  _ /_ /  /|/| _ _  / __/_ // _       _ 
 (  |/)(/(/ (  (-((//) /   |(-//)()(//(/(/((//)/)(/(/ 
                                                 /  
-    '''
+\033[1;m    '''
