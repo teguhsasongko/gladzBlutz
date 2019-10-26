@@ -1,14 +1,8 @@
 #!/usr/bin/python
 # Author : Teguh Sasongko ( ./Mr.GLADz404 )
-# FREE RECODED ASAL SOPAN !!!
+
 try:
     print '''\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \033[1;91m 		       _           _    ______ _       _ \033[1;m      
- \033[1;36m 	   _ \033[1;m    \033[1;91m     | |         | |   | ___ \ |     | |          \033[1;m
- \033[1;36m 	  | \ \033[1;m	  \033[1;91m__ _| | __ _  __| |___| |_/ / |_   _| |_ ____    \033[1;m
- \033[1;36m 	  |  \ \033[1;m	 \033[1;91m/ _` | |/ _` |/ _` |_  / ___ \ | | | | __|_  /    \033[1;m
- \033[1;36m ()########  |=================================================>\033[1;m
- \033[1;36m 	  |  /\033[1;m	\033[1;39m| (_| | | (_| | (_| |/ /| |_/ / | |_| | |_ / /_ \033[1;m
- \033[1;36m 	  |_/\033[1;m	 \033[1;39m\__, |_|\__,_|\__,_/___\____/|_|\__,_|\__/___| \033[1;m
 \033[1;32m  	     /  \033[1;m \033[1;39m __/ | \033[1;m     \033[1;27m     ( Making Wordlist )   \033[1;m 
 \033[1;32m  	    / \ \033[1;m \033[1;39m|___/ \033[1;m                                             
 \033[1;32m  	   /   \  \033[1;m                                              
@@ -23,7 +17,7 @@ try:
 '''
     print "\n"
     nama = raw_input("\033[1;17m    Masukan Nama File Output : \033[1;m")
-    kataku = open (nama,'a+') 
+    masukan = open (nama,'a+') 
     print "\n"
     print "\033[1;25m    Masukan kata yang ingin di buat : \033[1;m"
     a = raw_input('\033[1;25m    kata Pertama    : \033[1;m')
@@ -37,19 +31,19 @@ try:
     i = raw_input('\033[1;17m    kata Kesembilan : \033[1;m')
     j = raw_input('\033[1;17m    kata Kesepuluh  : \033[1;m')
 
-    kataku.write(a)
-    kataku.write('\n')
-    kataku.write(b)
-    kataku.write('\n')
-    kataku.write(c)
-    kataku.write('\n')
-    kataku.write(d)
-    kataku.write('\n')
-    kataku.write(e)
-    kataku.write('\n')
-    kataku.write(f)
-    kataku.write('\n')
-    kataku.write(g)
+    masukan.write(a)
+    masukan.write('\n')
+    masukan.write(b)
+    masukan.write('\n')
+    masukan.write(c)
+    masukan.write('\n')
+    masukan.write(d)
+    masukan.write('\n')
+    masukan.write(e)
+    masukan.write('\n')
+    masukan.write(f)
+    masukan.write('\n')
+    masukan.write(g)
     kataku.write('\n')
     kataku.write(h)
     kataku.write('\n')
